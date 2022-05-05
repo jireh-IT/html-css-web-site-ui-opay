@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opay | Seamless Mobile Money Service</title>
+    
+    <!-- style links -->
+		<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+		<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+
+     <!-- THE MAIN NAVIGATION BAR -->
+    <nav class="main-navbar">
+      <div class="container">
+        <div class="main-navbar-content">
+          <div class="logo position-relative">
+            <a href="#" class="relative-1"><img src="assets/icon-48x487ac7.png" alt="" /> <span>Opay</span></a>
+          </div>
+          <ul class="links">
+            <div class="links-menu">
+              <li>
+                <a class="active" href="index.html"
+                  >Mini POS</a>
+              </li>
+							<li>
+                <a class="active" href="index.html"
+                  >Merchants</a>
+              </li>
+							<li>
+                <a class="active" href="index.html"
+                  >Documentation</a>
+              </li>
+							<li class="dropdown">
+								<p class="dropdown-button mb-0" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									Company <i style="font-size: .6rem;" class="bi bi-caret-down-fill"></i>
+								</p>
+								<ul class="dropdown-menu m-0" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="#">About Us</a></li>
+									<li><a class="dropdown-item" href="#">Blog</a></li>
+									<li><a class="dropdown-item" href="#">Contact Us</a></li>
+									<li><a class="dropdown-item" href="#">Press & Media</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<p class="dropdown-button mb-0" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+									Join Us <i style="font-size: .6rem;" class="bi bi-caret-down-fill"></i>
+								</p>
+								<ul class="dropdown-menu m-0" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="#">Graduates</a></li>
+									<li><a class="dropdown-item" href="#">Experienced</a></li>
+								</ul>
+							</li>
+							<a href="#" class="btn-login hidden-one">Create User Account</a>
+            </div>
+          </ul>
+					<div class="login-button">
+						<a href="#" class="btn-login">Create User Account</a>
+					</div>
+          <button class="burger navb">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+	  <!-- the main header section -->
+		<header id="main-header">
+			<div class="container">
+				<div class="main-header">
+					<div class="row align-items-start">
+						<div class="col-12 col-lg-6">
+							<h1 class="title">Making Financial Services More Accessible For <span>You</span></h1>
+							<p>OPay gives you the freedom to make quick and easy payments, spend smart, and save more.</p>
+							<div class="d-flex align-items-center mb-5">
+								<a href="#" class="mr-2"><img class="download" src="assets/5a902dbf7f96951c82922875.png" alt=""></a>
+								<a href="#" class="mr-2"><img class="download" src="assets/download.png" alt=""></a>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6">
+							<div class="img-wrapper">
+								<img class="phone" src="assets/card-phone-img.png" alt="">
+								<div class="circle"></div>
+								<div class="circle-dotted"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</header>
+
+		<div class="go-down">
+			<a href="#">
+				<svg width="65px" height="65px" viewBox="0 0 65 65" fill="none">
+					<path d="M62.5 32.5L33 49.3864L3.5 32.5" stroke="#1DCF9F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+			</a>
+		</div>
+
+		<!-- the do more section -->
+
+		<section id="do-more">
+			<div class="container">
+				<h1 class="title text-center mb-5">Do more with OPay</h1>
+				<div class="light-green do-more">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card-item">
+								<div class="mb-5">
+									<svg style="box-shadow: 0 30px 50px #FFCE00; border-radius: 12px; " width="46px" height="46px" viewBox="0 0 46 46" fill="none">
+										<rect width="46" height="46" rx="10" fill="#FFCE00"></rect>
+										<path d="M14 12V33.537C14 33.9484 14.498 34.1563 14.7882 33.8618L15.9835 31.7917C16.1654 31.6098 16.4556 31.6098 16.6374 31.7917L18.2961 33.8618C18.478 34.0437 18.7682 34.0437 18.9501 33.8618L20.6088 31.7917C20.7907 31.6098 21.0808 31.6098 21.2627 31.7917L22.9214 33.8618C23.1033 34.0437 23.3935 34.0437 23.5754 33.8618L25.2341 31.7917C25.4159 31.6098 25.7061 31.6098 25.888 31.7917L27.5467 33.8618C27.7286 34.0437 28.0188 34.0437 28.2006 33.8618L29.8593 31.7917C30.0412 31.6098 30.3314 31.6098 30.5133 31.7917L31.7086 33.8488C31.9987 34.139 32.4968 33.9354 32.4968 33.5197V12H14ZM23.2506 28.1885H17.469C16.8323 28.1885 16.3126 27.6688 16.3126 27.0322C16.3126 26.3955 16.8323 25.8758 17.469 25.8758H23.2506C23.8872 25.8758 24.4069 26.3955 24.4069 27.0322C24.4069 27.6731 23.8872 28.1885 23.2506 28.1885ZM23.2506 23.5632H17.469C16.8323 23.5632 16.3126 23.0478 16.3126 22.4069C16.3126 21.7702 16.8323 21.2506 17.469 21.2506H23.2506C23.8872 21.2506 24.4069 21.7702 24.4069 22.4069C24.4069 23.0478 23.8872 23.5632 23.2506 23.5632ZM23.2506 18.9379H17.469C16.8323 18.9379 16.3126 18.4226 16.3126 17.7816C16.3126 17.145 16.8323 16.6253 17.469 16.6253H23.2506C23.8872 16.6253 24.4069 17.145 24.4069 17.7816C24.4069 18.4226 23.8872 18.9379 23.2506 18.9379ZM29.0322 28.1885H27.8758C27.2392 28.1885 26.7195 27.6688 26.7195 27.0322C26.7195 26.3955 27.2392 25.8758 27.8758 25.8758H29.0322C29.6688 25.8758 30.1885 26.3955 30.1885 27.0322C30.1885 27.6731 29.6731 28.1885 29.0322 28.1885ZM29.0322 23.5632H27.8758C27.2392 23.5632 26.7195 23.0478 26.7195 22.4069C26.7195 21.7702 27.2392 21.2506 27.8758 21.2506H29.0322C29.6688 21.2506 30.1885 21.7702 30.1885 22.4069C30.1885 23.0478 29.6731 23.5632 29.0322 23.5632ZM29.0322 18.9379H27.8758C27.2392 18.9379 26.7195 18.4226 26.7195 17.7816C26.7195 17.145 27.2392 16.6253 27.8758 16.6253H29.0322C29.6688 16.6253 30.1885 17.145 30.1885 17.7816C30.1885 18.4226 29.6731 18.9379 29.0322 18.9379Z" fill="white"></path>
+									</svg>
+								</div>
+								<h4 class="card-title">Pay Your Utility Bills</h4>
+								<p class="card-text">
+									Make your payments from the comfort of your homes or on-the-go. Pay for your 
+									cable TV, electricity, water, education, toll, tax, and more.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card-item">
+								<div class="mb-5">
+									<svg style="box-shadow: 0 30px 50px #1FC69D; border-radius: 12px; " width="46px" height="46px" viewBox="0 0 46 46" fill="none">
+										<rect width="46" height="46" rx="10" fill="#1FC69D"></rect>
+										<path d="M30.472 19.6147H29.0825V17.0379C29.0572 13.7032 26.3541 11 23.0193 11C19.6846 11 16.9814 13.7032 16.9814 17.0379V19.5895H15.592C14.7583 19.5895 14.0762 20.2716 14.0762 21.1053V26.0316C14.0762 30.9832 18.093 35 23.0446 35C27.9962 35 31.9878 30.9832 31.9878 26.0316V21.1305C31.9878 20.2968 31.3056 19.6147 30.472 19.6147ZM19 17.0379C19 15.3958 20 13 23.0193 13C26.0387 13 27 15.3958 27 17.0379V19.5895H19C19 19.5895 19 18.68 19 17.0379ZM26.733 25.6021L23.2214 29.1137C22.9941 29.3411 22.6656 29.4674 22.3625 29.4674C22.0593 29.4674 21.7562 29.3411 21.5035 29.1137L19.3056 26.9158C18.8256 26.4358 18.8256 25.6779 19.3056 25.2232C19.7856 24.7432 20.5435 24.7432 20.9983 25.2232L22.3372 26.5621L24.9899 23.9095C25.4699 23.4295 26.2278 23.4295 26.6825 23.9095C27.1878 24.3895 27.1877 25.1474 26.733 25.6021Z" fill="white"></path>
+									</svg>
+								</div>
+								<h4 class="card-title">Fast & Secure Transfer</h4>
+								<p class="card-text">
+									With OPay, you can send money to other banks for free and receive money in real-time. 
+									All you need is a phone number to open an account.*
+								</p>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card-item">
+								<div class="mb-5">
+									<svg style="box-shadow: 0 30px 50px rgba(107, 56, 245, 0.6); border-radius: 12px; " width="46px" height="46px" viewBox="0 0 46 46" fill="none">
+										<rect width="46" height="46" rx="10" fill="#6B38F5"></rect>
+										<g clip-path="url(#clip0)"><path d="M28.2249 15.9708C30.0583 15.9708 31.525 17.4375 31.525 19.2708C31.525 21.1042 30.0583 22.5709 28.2249 22.5709C26.3915 22.5709 24.9249 21.1042 24.9249 19.2708C24.9249 17.4833 26.4374 15.9708 28.2249 15.9708Z" fill="white"></path><path d="M34 27.4751C34 28.2543 33.4958 28.9418 32.7625 29.171C31.25 29.6293 29.6458 29.8585 28.0874 29.8585C28.2249 29.446 28.2707 29.0793 28.2707 28.6668C28.2707 27.0626 27.7207 25.5043 26.7582 24.2209C28.2707 24.6793 29.8749 24.4501 31.1583 23.5334C31.8916 23.7167 32.5333 24.1292 33.0375 24.7251C33.6333 25.5043 34 26.4668 34 27.4751Z" fill="white"></path><path d="M19.1958 22.8001C21.6259 22.8001 23.5958 20.8302 23.5958 18.4001C23.5958 15.97 21.6259 14 19.1958 14C16.7657 14 14.7957 15.97 14.7957 18.4001C14.7957 20.8302 16.7657 22.8001 19.1958 22.8001Z" fill="white"></path><path d="M25.2002 25.1835C25.9794 26.146 26.4377 27.3836 26.4377 28.6211C26.4377 29.5836 25.7961 30.4544 24.8794 30.7294C21.2126 31.8753 17.2709 31.8753 13.5584 30.7294C12.6417 30.4544 12 29.5836 12 28.6211C12 27.3377 12.4125 26.146 13.2375 25.1835C13.8792 24.3585 14.7959 23.8085 15.8042 23.6252C17.8668 25.0002 20.571 25.0002 22.6335 23.6252C23.6419 23.8085 24.5585 24.3585 25.2002 25.1835Z" fill="white"></path></g>
+										<defs><clipPath id="clip0"><rect width="23" height="23" fill="white" transform="translate(12 12)"></rect></clipPath></defs>
+									</svg>
+								</div>
+								<h4 class="card-title">Connect with Friends</h4>
+								<p class="card-text">
+									Chat with family and friends on the app. Send money to them with zero charges through 
+									our wallet-to-wallet payment system.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card-item">
+								<div class="mb-5">
+									<svg style="box-shadow: 0 30px 50px rgba(31, 198, 157, 0.6); border-radius: 12px; " width="46px" height="46px" viewBox="0 0 46 46" fill="none">
+										<rect width="46" height="46" rx="10" fill="#1FC69D"></rect>
+										<path d="M27.2186 14.1423C27.2186 14.1175 27.2186 14.0928 27.2186 14.068V11.9402C27.2186 11.4206 26.6742 11 26.1546 11C25.6598 11 25.066 11.4206 25.066 11.9402V14.0186H19.8454C18.2866 13.9938 17 15.2804 17 16.8392V32.1546C17 33.7381 18.2866 35 19.8454 35H26.3278C27.9113 35 29.1732 33.7134 29.1732 32.1546V16.8392C29.1979 15.5773 28.3567 14.5134 27.2186 14.1423ZM20.5629 31.1649H19.5237C19.2268 31.1649 18.9546 30.9175 18.9546 30.5959C18.9546 30.2742 19.2021 30.0268 19.5237 30.0268H20.5629C20.8845 30.0268 21.132 30.2742 21.132 30.5959C21.132 30.9175 20.8845 31.1649 20.5629 31.1649ZM19.5237 27.8247H20.5629C20.8845 27.8247 21.132 28.0722 21.132 28.3938C21.132 28.6907 20.8845 28.9629 20.5629 28.9629H19.5237C19.2268 28.9629 18.9546 28.7155 18.9546 28.3938C18.9546 28.0722 19.2021 27.8247 19.5237 27.8247ZM18.9546 26.1918C18.9546 25.8701 19.2021 25.6227 19.5237 25.6227H20.5629C20.8845 25.6227 21.132 25.8701 21.132 26.1918C21.132 26.4887 20.8845 26.7608 20.5629 26.7608H19.5237C19.2021 26.7361 18.9546 26.4887 18.9546 26.1918ZM24.967 33.4165H21.5526C21.3299 33.4165 21.132 33.2186 21.132 32.9959C21.132 32.7732 21.3299 32.5753 21.5526 32.5753H24.967C25.1897 32.5753 25.3876 32.7732 25.3876 32.9959C25.3876 33.2186 25.2144 33.4165 24.967 33.4165ZM22.6412 27.8247H23.6804C24.0021 27.8247 24.2495 28.0722 24.2495 28.3938C24.2495 28.6907 24.0021 28.9629 23.6804 28.9629H22.6412C22.3196 28.9629 22.0722 28.7155 22.0722 28.3938C22.0722 28.0722 22.3196 27.8247 22.6412 27.8247ZM22.0722 26.1918C22.0722 25.8701 22.3196 25.6227 22.6412 25.6227H23.6804C24.0021 25.6227 24.2495 25.8701 24.2495 26.1918C24.2495 26.4887 24.0021 26.7608 23.6804 26.7608H22.6412C22.3196 26.7361 22.0722 26.4887 22.0722 26.1918ZM22.6412 30.0515H23.6804C24.0021 30.0515 24.2495 30.299 24.2495 30.6206C24.2495 30.9423 24.0021 31.1897 23.6804 31.1897H22.6412C22.3196 31.1897 22.0722 30.9423 22.0722 30.6206C22.0722 30.299 22.3196 30.0515 22.6412 30.0515ZM26.8227 31.1649H25.7835C25.4619 31.1649 25.2144 30.9175 25.2144 30.5959C25.2144 30.2742 25.4619 30.0268 25.7835 30.0268H26.8227C27.1443 30.0268 27.3918 30.2742 27.3918 30.5959C27.3918 30.9175 27.1443 31.1649 26.8227 31.1649ZM26.8227 28.9381H25.7835C25.4619 28.9381 25.2144 28.6907 25.2144 28.3691C25.2144 28.0474 25.4619 27.8 25.7835 27.8H26.8227C27.1443 27.8 27.3918 28.0474 27.3918 28.3691C27.3918 28.6907 27.1443 28.9381 26.8227 28.9381ZM26.8227 26.7361H25.7835C25.4619 26.7361 25.2144 26.4887 25.2144 26.167C25.2144 25.8454 25.4619 25.5979 25.7835 25.5979H26.8227C27.1443 25.5979 27.3918 25.8454 27.3918 26.167C27.3918 26.4887 27.1443 26.7361 26.8227 26.7361ZM27.7134 22.7526C27.7134 23.5691 27.0454 24.2124 26.2536 24.2124H20.0928C19.2763 24.2124 18.633 23.5443 18.633 22.7526V16.8887C18.633 16.0722 19.301 15.4289 20.0928 15.4289H26.2536C27.0701 15.4289 27.7134 16.0969 27.7134 16.8887V22.7526Z" fill="white"></path>
+									</svg>
+								</div>
+								<h4 class="card-title">Offline Banking</h4>
+								<p class="card-text">
+									No smartphone? No problem! Our USSD service is here to help you. Dial *955# 
+									on your phone to carry out any transaction.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card-item">
+								<div class="mb-5">
+									<svg style="box-shadow: 0 30px 50px rgba(107, 56, 245, 0.6); border-radius: 12px; " width="46px" height="46px" viewBox="0 0 46 46" fill="none">
+										<rect width="46" height="46" rx="10" fill="#6B38F5"></rect>
+										<path d="M34.8484 18.0779L31.3874 13.3032C31.1095 12.8989 30.4526 12.8989 30.1495 13.3032L26.6884 18.0779C26.5116 18.3053 26.4863 18.6084 26.6379 18.8611C26.7642 19.1137 27.0168 19.2653 27.32 19.2653H28.9621V31.3158H27.3453V21.9684C27.3453 21.5389 27.0168 21.2105 26.5874 21.2105H24.44C24.0105 21.2105 23.6821 21.5389 23.6821 21.9684V31.3158H22.0653V26.2126C22.0653 25.7832 21.7368 25.4547 21.3074 25.4547H19.16C18.7305 25.4547 18.4021 25.7832 18.4021 26.2126V31.3411H16.7853V27.9053C16.7853 27.4758 16.4568 27.1474 16.0274 27.1474H13.88C13.4505 27.1474 13.1221 27.4758 13.1221 27.9053V31.3411H11.7579C11.3284 31.3411 11 31.6695 11 32.0989C11 32.5284 11.3284 32.8568 11.7579 32.8568H33.8884C34.3179 32.8568 34.6463 32.5284 34.6463 32.0989C34.6463 31.6695 34.3179 31.3411 33.8884 31.3411H32.6V19.2905H34.2421C34.52 19.2905 34.7979 19.1389 34.9242 18.8863C35.0505 18.6084 35.0253 18.3053 34.8484 18.0779Z" fill="white"></path>
+									</svg>
+								</div>
+								<h4 class="card-title">Savings</h4>
+								<p class="card-text">
+									Start saving smartly with any of our savings products and get up to 15% interest returns per annum.
+									Withdraw your money at your convenience.
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</section>
+
+		<!-- easy transaction section -->
+
+		<section id="easy-transaction" class="mt-5 pb-0">
+			<div class="easy-top text-center">
+				<h2 class="easy-title">Easy, fast transactions</h2>
+				<p>
+					Goodbye to queues. OPay is the easiest and fastest way to make transactions and manage your
+					inances without standing in long bank queues.
+				</p>
+			</div>
+			<div class="light-green pt-5 relative-3">
+				<h2 class="title text-center my-5">A better life with OPay</h2>
+
+				<div class="container">
+					<div class="relative-1 mb-5" style="min-height: 480px;">
+						<div class="better">
+							<div class="better-img">
+								<img src="assets/agent.jpg" alt="the agent" class="cover">
+							</div>
+							<div class="better-text">
+								<div>
+									<h2>
+										Add Money, Make Transfers, Pay Bills
+									</h2>
+									<p>
+										Live your life on your terms and without limits. With an
+										OPay account, you can add money to your wallet for free,
+										within seconds and start making transfers to other wallets
+										or any bank accounts for free.* Take control of how you
+										make your bill and utility payments.
+									</p>
+									<a href="#" class="btn-login">Learn more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="relative-1" style="min-height: 480px;">
+						<div class="better">
+							<div class="better-img left">
+								<img src="assets/bills.png" alt="the agent" class="cover">
+							</div>
+							<div class="better-text left">
+								<div>
+									<h2>
+										Become an OPay Merchant
+									</h2>
+									<p>
+										As an OPay Merchant, you have the power and control to make as much money as you can 
+										while providing financial services and helping your community grow. Join the OPay 
+										family now, get a free POS and start to scale your business. We offer the lowest 
+										charges in the market.
+									</p>
+									<a href="#" class="btn-login">Learn more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="passport">
+						<h2 class="title">
+							OPay Cards, Your Passport To The <span>World</span>
+						</h2>
+						<p>
+							With our physical debit cards, you can make payments for goods, services and international 
+							subscriptions from your OPay wallet. Make offline or online payments seamlessly with your 
+							OPay card and partake in our Generous Reward Program.
+						</p>
+
+						<div class="card-hand">
+							<img src="assets/card-hand.png" alt="card hand">
+							<div class="circle"></div>
+							<div class="circle-dotted"></div>
+						</div>
+					</div>
+					
+				</div>				
+			</div>
+		</section>
+
+		<section id="security">
+			<div class="container">
+				<div class="row">
+					<div class="col-10 col-lg-6">
+						<h2 class="title mb-5">We take your Security and Privacy seriously</h2>
+						<div class="d-flex align-items-start mb-4">
+							<div class="me-4">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none"><g id="Icon"><path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60Z" fill="#148F6E"></path><path id="Icon_2" d="M25.9966 39.5605L17.8423 31.4551C17.6144 31.2272 17.5005 30.9342 17.5005 30.5761C17.5005 30.2181 17.6144 29.9251 17.8423 29.6972L19.6489 27.9394C19.8768 27.679 20.1616 27.5488 20.5034 27.5488C20.8452 27.5488 21.1463 27.679 21.4067 27.9394L26.8755 33.4082L38.5942 21.6895C38.8546 21.429 39.1557 21.2988 39.4975 21.2988C39.8393 21.2988 40.1241 21.429 40.352 21.6895L42.1586 23.4473C42.3865 23.6751 42.5004 23.9681 42.5004 24.3262C42.5004 24.6842 42.3865 24.9772 42.1586 25.2051L27.7544 39.5605C27.5265 39.8209 27.2335 39.9511 26.8755 39.9511C26.5174 39.9511 26.2244 39.8209 25.9966 39.5605Z" fill="white"></path></g></svg>
+
+							</div>
+							<div class="">
+								<h4 class="mb-4">Advanced fraud detection</h4>
+								<p>
+									Your data is stored and encrypted using strong cryptography. We scan our systems 
+									daily against security threats.
+								</p>
+							</div>
+						</div>
+
+						<div class="d-flex align-items-start">
+							<div class="me-4">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none"><g id="Icon"><path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60Z" fill="#148F6E"></path><path id="Icon_2" d="M25.9966 39.5605L17.8423 31.4551C17.6144 31.2272 17.5005 30.9342 17.5005 30.5761C17.5005 30.2181 17.6144 29.9251 17.8423 29.6972L19.6489 27.9394C19.8768 27.679 20.1616 27.5488 20.5034 27.5488C20.8452 27.5488 21.1463 27.679 21.4067 27.9394L26.8755 33.4082L38.5942 21.6895C38.8546 21.429 39.1557 21.2988 39.4975 21.2988C39.8393 21.2988 40.1241 21.429 40.352 21.6895L42.1586 23.4473C42.3865 23.6751 42.5004 23.9681 42.5004 24.3262C42.5004 24.6842 42.3865 24.9772 42.1586 25.2051L27.7544 39.5605C27.5265 39.8209 27.2335 39.9511 26.8755 39.9511C26.5174 39.9511 26.2244 39.8209 25.9966 39.5605Z" fill="white"></path></g></svg>
+
+							</div>
+							<div class="">
+								<h4 class="mb-4">Your money is safe with us</h4>
+								<p>
+									We are compliant with PCI DSS. Your transactions are always encrypted and secured.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 col-lg-6 text-center d-none d-lg-block">
+						<svg width="374" height="526" viewBox="0 0 374 526" fill="none"><path d="M351.87 208.062H295.079V164.813C295.079 105.2 246.485 56.6911 186.766 56.6911C127.048 56.6911 78.4532 105.2 78.4532 164.813V208.062H21.6621V164.813C21.6621 74.2244 96.0175 0 186.766 0C278.1 0 351.87 74.2244 351.87 164.813V208.062Z" fill="#A5ECD9"></path><path d="M186.767 526C83.723 526 0 442.424 0 339.562V226.764C0 216.244 8.78213 207.478 19.3207 207.478H354.213C364.751 207.478 373.533 216.244 373.533 226.764V339.562C374.119 442.424 290.396 526 186.767 526Z" fill="#148F6E"></path><g filter="url(#filter0_d)"><path d="M160.927 430.151L73.1055 347.745L110.576 312.678L160.927 360.018L262.214 265.338L299.684 300.405L160.927 430.151Z" fill="white"></path></g><defs><filter id="filter0_d" x="23.1055" y="245.338" width="326.579" height="264.813" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dy="30"></feOffset><feGaussianBlur stdDeviation="25"></feGaussianBlur><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"></feColorMatrix><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend></filter></defs></svg>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="app">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-11 col-lg-6 d-none d-lg-block img-mockup">
+						<img src="assets/updated-phone-mockup-b79599179ad797c0e49d8e3cb0c1dfa0.png" alt="">
+					</div>
+					<div class="col-11 col-lg-6">
+						<h2 class="title mb-4">
+							Download the app and start your journey to stress-free payments now
+						</h2>
+						<div class="d-flex align-items-center">
+							<div class="qrcode">
+								<img src="assets/websiteQRCode_noFrame.png" alt="qrcode" class="cover">
+							</div>
+							<div class="">
+								<p>Use your phones camera to scan and download
+									the OPay app
+								</p>
+								<p>
+									Available on <a href="#" class="green">iOS</a> and <a href="#" class="green">Android</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="partner">
+			<div class="container">
+				<h2 class="title my-5 text-center">Our partners</h2>
+				<div class="partners">
+					<div class="partner">
+						<img src="assets/uLesson.webp" alt="" class="">
+					</div>
+					<div class="partner">
+						<img src="assets/unnamed.png" alt="" class="">
+					</div>
+					<div class="partner">
+						<img src="assets/uLesson.webp" alt="" class="">
+					</div>
+					<div class="partner">
+						<img src="assets/uLesson.webp" alt="" class="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="questions">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-11 col-lg-6">
+						<h2 class="title mb-4">
+							Do you still have questions?
+						</h2>
+						<p class="mb-4">
+							Check out our <a href="#" class="green">FAQ</a> page to answer any of your questions
+							around our products and services, and if you require further assistance or would like to reach us for general inquiries,
+							please call us on <a href="#" class="green">+234 1 888 8329</a> or email
+							<a href="#" class="green">customerservice@opay-inc.com</a>
+						</p>
+						<div class="d-flex">
+							<div class="social">
+								<i class="bi bi-twitter"></i>
+							</div>
+							<div class="social">
+								<i class="bi bi-instagram"></i>
+							</div>
+							<div class="social">
+								<i class="bi bi-linkedin"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-11 col-lg-6 d-none d-lg-block">
+						<img src="assets/inquires-37beba0a0765191468f3b2f1743b2358.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6 mb-4">
+						<div class="logo position-relative">
+							<div class="mb-5">
+								<a href="#" class="relative-1"><img src="assets/icon-48x487ac7.png" alt="" /> <span>Opay</span></a>
+							</div>
+							<div class="d-flex align-items-center mb-4">
+								<a href="#" class="mr-2"><img class="download" src="assets/5a902dbf7f96951c82922875.png" alt=""></a>
+								<a href="#" class="mr-2"><img class="download" src="assets/download.png" alt=""></a>
+							</div>
+							<div class="d-flex mb-2">
+								<div class="social">
+									<i class="bi bi-twitter"></i>
+								</div>
+								<div class="social">
+									<i class="bi bi-instagram"></i>
+								</div>
+								<div class="social">
+									<i class="bi bi-linkedin"></i>
+								</div>
+							</div>
+							<svg class="style__SecurityIcon-sc-t3n67n-3 dodkZK" width="92" height="35" viewBox="0 0 92 35" fill="none"><path d="M62.209 19.7988L63.12 20.0721C63.0593 20.3302 62.9682 20.5428 62.8315 20.7098C62.6949 20.8768 62.543 21.0135 62.3456 21.0894C62.1482 21.1805 61.9053 21.2261 61.6016 21.2261C61.2372 21.2261 60.9487 21.1805 60.7058 21.0742C60.478 20.968 60.2806 20.7857 60.1136 20.5124C59.9466 20.2543 59.8555 19.9051 59.8555 19.4951C59.8555 18.9485 60.0073 18.5233 60.2958 18.2196C60.5843 17.916 61.0095 17.7793 61.5409 17.7793C61.966 17.7793 62.2849 17.8704 62.5279 18.0374C62.7708 18.2045 62.953 18.4626 63.0593 18.827L62.1483 19.0244C62.1179 18.9181 62.0875 18.8422 62.042 18.7966C61.9812 18.7207 61.9205 18.66 61.8294 18.6144C61.7383 18.5689 61.6472 18.5537 61.5561 18.5537C61.3283 18.5537 61.1461 18.6448 61.0246 18.8422C60.9335 18.9788 60.888 19.2066 60.888 19.4951C60.888 19.8595 60.9487 20.1176 61.055 20.2543C61.1613 20.391 61.3283 20.4669 61.5257 20.4669C61.7231 20.4669 61.8749 20.4061 61.966 20.2999C62.0875 20.1632 62.1634 20.0114 62.209 19.7988Z" fill="#5A7184"></path><path d="M63.4844 19.4966C63.4844 18.95 63.6362 18.5248 63.9399 18.2211C64.2436 17.9175 64.6687 17.7656 65.2154 17.7656C65.7772 17.7656 66.2023 17.9175 66.506 18.206C66.8097 18.5096 66.9615 18.9196 66.9615 19.4662C66.9615 19.861 66.9008 20.1799 66.7641 20.4228C66.6275 20.6658 66.4453 20.8632 66.1871 20.9998C65.9442 21.1365 65.6253 21.2124 65.2609 21.2124C64.8813 21.2124 64.5776 21.1517 64.3195 21.0302C64.0766 20.9087 63.8792 20.7265 63.7121 20.4532C63.5451 20.1799 63.4844 19.8914 63.4844 19.4966ZM64.5169 19.4966C64.5169 19.8307 64.5776 20.0736 64.6991 20.2254C64.8206 20.3773 64.9876 20.4532 65.2154 20.4532C65.4431 20.4532 65.6101 20.3773 65.7316 20.2406C65.8531 20.0888 65.9138 19.8307 65.9138 19.4662C65.9138 19.1474 65.8531 18.9196 65.7164 18.783C65.595 18.6311 65.4127 18.5704 65.2002 18.5704C64.9876 18.5704 64.8206 18.6463 64.6991 18.7981C64.5776 18.9196 64.5169 19.1626 64.5169 19.4966Z" fill="#5A7184"></path><path d="M67.4933 17.8262H68.8446L69.3609 19.8608L69.8772 17.8262H71.2285V21.1667H70.3782V18.6157L69.7253 21.1667H68.9661L68.3132 18.6157V21.1667H67.4629V17.8262H67.4933Z" fill="#5A7184"></path><path d="M71.8965 17.8262H73.6123C73.9919 17.8262 74.2652 17.9173 74.4474 18.0995C74.6296 18.2817 74.7207 18.5246 74.7207 18.8587C74.7207 19.1927 74.6144 19.466 74.417 19.6482C74.2196 19.8456 73.9008 19.9367 73.4908 19.9367H72.929V21.1818H71.8965V17.8262ZM72.929 19.2535H73.1871C73.3845 19.2535 73.5212 19.2231 73.6123 19.1472C73.6882 19.0713 73.7337 18.9953 73.7337 18.8891C73.7337 18.7828 73.7034 18.6917 73.6275 18.6157C73.5515 18.5398 73.4301 18.5095 73.2327 18.5095H72.9442V19.2535H72.929Z" fill="#5A7184"></path><path d="M75.2676 17.8262H76.3001V20.3467H77.9096V21.1667H75.2676V17.8262Z" fill="#5A7184"></path><path d="M78.4258 17.8262H79.4583V21.1667H78.4258V17.8262Z" fill="#5A7184"></path><path d="M82.2521 20.6049H81.0829L80.9159 21.1515H79.8682L81.1284 17.811H82.2521L83.5123 21.1515H82.4343L82.2521 20.6049ZM82.0395 19.8912L81.6751 18.6917L81.3106 19.8912H82.0395Z" fill="#5A7184"></path><path d="M83.8311 17.8262H84.7876L86.0479 19.6786V17.8262H87.0197V21.1667H86.0479L84.8028 19.3294V21.1667H83.8311V17.8262Z" fill="#5A7184"></path><path d="M87.4756 17.8262H90.6187V18.6461H89.571V21.1667H88.5385V18.6461H87.4908V17.8262H87.4756Z" fill="#5A7184"></path><path d="M49.7885 22.9127L52.7798 21.9713L51.808 19.8152C51.0943 20.711 50.3807 21.865 49.7885 22.9127ZM48.7712 13.0583L42.9101 0L0 2.42945L11.8891 34.8626L34.7715 27.6502C33.3138 25.5548 32.7824 23.0646 34.4678 21.8498C36.3506 20.4833 39.19 22.0624 40.9969 24.2945C42.7431 21.3791 47.6475 14.5919 48.7712 13.0583Z" fill="#5A7184"></path><path d="M41.5736 9.4366C43.3653 9.4366 44.823 8.07004 44.823 6.36942C44.823 4.66881 43.3653 3.30225 41.5736 3.30225C39.7819 3.30225 38.3242 4.66881 38.3242 6.36942C38.3242 8.05485 39.7819 9.4366 41.5736 9.4366ZM38.9164 10.7576H44.2308V24.651H38.9164V10.7576Z" fill="#FEFEFE"></path><path d="M36.2896 14.8118C36.3352 14.827 36.3655 14.8118 36.3655 14.7662V11.2435C36.3655 11.198 36.3352 11.1524 36.2896 11.122C36.2896 11.122 35.5911 10.6665 33.4654 10.5451C33.3591 10.4843 31.4914 10.4691 30.9904 10.5451C23.2465 11.1676 22.958 16.7705 22.958 17.0135V18.38C22.958 18.547 22.958 24.2714 30.9904 24.7725C31.7799 24.8332 33.3135 24.7725 33.4654 24.7725C35.3178 24.7725 36.5933 24.2107 36.5933 24.2107C36.6388 24.1955 36.6692 24.15 36.6692 24.1044V20.8095C36.6692 20.7639 36.6388 20.7487 36.6085 20.7791C36.6085 20.7791 36.0315 21.2346 33.5109 21.4928C32.7973 21.5687 32.448 21.5383 32.1899 21.4928C28.6065 20.8854 28.4395 18.2737 28.4395 18.2737C28.4395 18.2282 28.4243 18.1523 28.4243 18.1219V17.1197C28.4243 17.0742 28.4243 16.9983 28.4395 16.9679C28.4395 16.9679 28.6824 14.1589 32.1899 13.8552H33.5109C35.0445 14.0526 36.2896 14.8118 36.2896 14.8118Z" fill="#FEFEFE"></path><path d="M8.19922 24.6054C8.19922 24.6509 8.22959 24.6813 8.27514 24.6813H13.4529C13.4984 24.6813 13.5288 24.6509 13.5288 24.6054V20.5664C13.5288 20.5209 13.5592 20.4905 13.6047 20.4905C13.6047 20.4905 21.88 21.0827 21.88 15.5405C21.88 11.1523 16.6871 10.6816 14.9865 10.7575C14.9561 10.7575 8.27514 10.7575 8.27514 10.7575C8.22959 10.7575 8.19922 10.7879 8.19922 10.8334V24.6054ZM13.4377 17.4081V13.7791H14.7132C14.7132 13.7791 16.5504 13.8551 16.7023 15.1153C16.7326 15.2064 16.7326 15.829 16.7023 15.8594C16.4593 17.3322 14.865 17.4081 14.865 17.4081H13.4377Z" fill="#FEFEFE"></path><path d="M41.7261 31.3552C42.1513 31.3552 42.4854 31.3552 43.032 31.1123C44.9148 30.1253 51.2769 14.592 57.9883 9.80907C58.0338 9.7787 58.0794 9.73315 58.1097 9.6876C58.1553 9.62686 58.1553 9.56612 58.1553 9.56612C58.1553 9.56612 58.1553 9.24726 57.1683 9.24726C51.201 9.08023 44.9907 21.6071 41.7261 26.5571C41.6806 26.6178 41.468 26.5571 41.468 26.5571C41.468 26.5571 39.2815 23.9758 37.3835 22.9888C37.338 22.9736 37.1254 22.8977 36.8976 22.9129C36.7458 22.9129 35.8651 23.0951 35.4551 23.5203C34.9692 24.0365 34.9844 24.325 34.9844 24.9476C34.9844 24.9931 35.0148 25.2057 35.0755 25.312C35.5462 26.1319 37.6568 29.0473 39.403 30.6568C39.6611 30.8542 40.0711 31.3552 41.7261 31.3552Z" fill="#5A7184"></path><path d="M59.749 5.11719H64.7142C65.7012 5.11719 66.4907 5.25384 67.0829 5.51197C67.6903 5.78529 68.1913 6.16489 68.5709 6.65078C68.9657 7.15185 69.2542 7.72884 69.4213 8.38176C69.6035 9.03467 69.6946 9.73314 69.6946 10.4772C69.6946 11.6311 69.5579 12.527 69.2998 13.1647C69.0417 13.8025 68.6772 14.3339 68.2065 14.7742C67.7358 15.1994 67.2348 15.4879 66.7033 15.6397C65.9745 15.8371 65.3064 15.9282 64.7142 15.9282H59.749V5.11719ZM63.0895 7.56182V13.4684H63.9095C64.6079 13.4684 65.109 13.3925 65.3975 13.2407C65.686 13.0888 65.9289 12.8155 66.0959 12.4359C66.263 12.0563 66.3541 11.4186 66.3541 10.5531C66.3541 9.39909 66.1719 8.6247 65.7923 8.19955C65.4127 7.77439 64.8053 7.56182 63.9246 7.56182H63.0895Z" fill="#5A7184"></path><path d="M70.6211 12.3601L73.8097 12.1627C73.8857 12.679 74.0223 13.0738 74.2349 13.3471C74.5841 13.7874 75.07 14 75.7078 14C76.1785 14 76.5581 13.8937 76.8162 13.6659C77.0743 13.4382 77.211 13.18 77.211 12.8915C77.211 12.6182 77.0895 12.3601 76.8466 12.1323C76.6036 11.9046 76.0266 11.7072 75.1308 11.5098C73.6579 11.1757 72.6254 10.7354 71.9877 10.1888C71.3499 9.64216 71.0463 8.9437 71.0463 8.09339C71.0463 7.53158 71.2133 7.01532 71.5321 6.51425C71.851 6.01318 72.3369 5.63357 72.9898 5.34508C73.6427 5.05658 74.5234 4.91992 75.647 4.91992C77.0288 4.91992 78.0916 5.17805 78.8053 5.69431C79.5341 6.21057 79.9593 7.0305 80.0959 8.15412L76.9377 8.33633C76.8466 7.85044 76.6795 7.50121 76.4062 7.27345C76.1329 7.04569 75.7685 6.9394 75.2978 6.9394C74.903 6.9394 74.6145 7.01532 74.4171 7.18235C74.2197 7.34937 74.1286 7.54676 74.1286 7.78971C74.1286 7.95673 74.2045 8.12376 74.3716 8.26041C74.5234 8.39707 74.903 8.53372 75.4952 8.6552C76.9528 8.97406 78.0005 9.29293 78.6383 9.61179C79.276 9.93066 79.7315 10.3406 80.02 10.8113C80.3085 11.282 80.4452 11.8287 80.4452 12.4208C80.4452 13.1193 80.2478 13.757 79.8682 14.334C79.4886 14.9262 78.942 15.3665 78.2587 15.6702C77.5754 15.9739 76.6947 16.1257 75.647 16.1257C73.8097 16.1257 72.5343 15.7765 71.8206 15.0629C71.1222 14.3492 70.7274 13.4534 70.6211 12.3601Z" fill="#5A7184"></path><path d="M81.2959 12.3601L84.4846 12.1627C84.5605 12.679 84.6971 13.0738 84.9097 13.3471C85.2589 13.7874 85.7448 14 86.3826 14C86.8533 14 87.2329 13.8937 87.491 13.6659C87.7491 13.4382 87.8858 13.18 87.8858 12.8915C87.8858 12.6182 87.7643 12.3601 87.5214 12.1323C87.2784 11.9046 86.7014 11.7072 85.8056 11.5098C84.3327 11.1757 83.3002 10.7354 82.6625 10.1888C82.0399 9.64216 81.7211 8.9437 81.7211 8.09339C81.7211 7.53158 81.8881 7.01532 82.2069 6.51425C82.5258 6.01318 83.0117 5.63357 83.6646 5.34508C84.3175 5.05658 85.1982 4.91992 86.3218 4.91992C87.7036 4.91992 88.7665 5.17805 89.4801 5.69431C90.2089 6.21057 90.6341 7.0305 90.7707 8.15412L87.6125 8.33633C87.5214 7.85044 87.3543 7.50121 87.081 7.27345C86.8077 7.04569 86.4433 6.9394 85.9726 6.9394C85.5778 6.9394 85.2893 7.01532 85.0919 7.18235C84.8945 7.34937 84.8034 7.54676 84.8034 7.78971C84.8034 7.95673 84.8793 8.12376 85.0464 8.26041C85.1982 8.39707 85.5778 8.53372 86.17 8.6552C87.6276 8.97406 88.6754 9.29293 89.3131 9.61179C89.9508 9.93066 90.4063 10.3406 90.6948 10.8113C90.9833 11.282 91.12 11.8287 91.12 12.4208C91.12 13.1193 90.9226 13.757 90.543 14.334C90.1634 14.9262 89.6168 15.3665 88.9335 15.6702C88.2502 15.9739 87.3695 16.1257 86.3218 16.1257C84.4845 16.1257 83.2091 15.7765 82.4954 15.0629C81.7818 14.3492 81.387 13.4534 81.2959 12.3601Z" fill="#5A7184"></path></svg>
+						</div>
+					</div>
+					<div class="col-6 col-lg-2 mb-4">
+						<h4>Company</h4>
+						<p><a href="#">Blog</a></p>
+						<p><a href="#">About Us</a></p>
+						<p><a href="#">Contact Us</a></p>
+					</div>
+					<div class="col-6 col-lg-2 mb-4">
+						<h4>Ressources</h4>
+						<p><a href="#">Privacy Policy</a></p>
+						<p><a href="#">Terms & Conditions</a></p>
+						<p><a href="#">Documentation</a></p>
+						<p><a href="#">Security</a></p>
+						<p><a href="#">FAQ</a></p>
+					</div>
+					<div class="col-6 col-lg-2 mb-4">
+						<h4>Discover</h4>
+						<p><a href="#">Mini POS</a></p>
+						<p><a href="#">For Merchants</a></p>
+					</div>
+				</div>
+
+				<hr class="hr mt-5">
+
+				<p>*Say goodbye to bank transfer fees! Transfer to bank accounts and OPay wallets for free.</p>
+				<p>**OPay will not charge you for any transaction done on the OPay app.</p>
+				<p class="mt-5">
+					&copy; 2021. OPay is a mobile money platform operated by OPay Digital Services Limited and licensed
+					by the Central Bank of Nigeria. Launched in June 2018, the company has spread its services across
+					all 36 states in Nigeria with over 300,000 mobile money merchants. Unauthorised reproduction
+					and/or redistribution of copyrighted materials on this website and OPay’s social media pages is
+					strictly prohibited.
+				</p>
+			</div>
+		</footer>
+
+
+		<!-- script links -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
